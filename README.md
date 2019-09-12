@@ -16,11 +16,12 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.amiarafat:ArafatLog:0.0.1'
 	}
-```	
+```
 
 After adding this library now you can show/hide your log files with this library
 
-#To set a log
+# To set a log
+
 ```
  ArafatLog.d("d::","Debug");
  ArafatLog.e("e::","Error");
@@ -28,7 +29,7 @@ After adding this library now you can show/hide your log files with this library
  ArafatLog.v("v::","Verbose");
  ArafatLog.w("w::","Warn");
 ```
-#To set a log show/hide
+# To set log show/hide
 
 ```
  ArafatLog.setLogFalse();
